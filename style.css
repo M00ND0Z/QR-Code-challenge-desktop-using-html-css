@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Inspiration&family=Montserrat:wght@200&family=Outfit:wght@400;700&family=Poppins:wght@400;700&family=Roboto:wght@100;500&family=Ubuntu:ital,wght@1,700&display=swap');
+* {
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+.flexbox-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; /*Fungerar denna?*/
+  padding: 50px;
+}
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+.Card {
+  border: 1px none #000;
+  border-radius: 13px;
+  height: 335px;
+  width: 225px;
+  max-width: 350px;
+  margin-top: 50px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 10px 10px 70px 0px hsl(220, 15%, 55%);
+  /*
+  box-shadow: 10px 2px 90px 1px hsl(212, 45%, 89%);
+  */
+  text-align: center;
+}
+.QR {
+  border-radius: 7px;
+  height: 200px;
+  width: 200px;
+  margin: 12px 12px 1px 12px;
+}
+p {
+  text-align: center;
+  margin: 3px;
+  padding: 5px;
+  border: 1px none #000;
+  font-family: outfit;
+  
+  
+}
+.text-One {
+  font-weight: 700;
+  padding-bottom: 1px;
+  color: hsl(218, 44%, 22%);
+  font-size: 15px;
+}
+.text-Two {
+  font-size: 11px;
+  padding-top: 4px;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+}
